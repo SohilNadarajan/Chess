@@ -12,8 +12,8 @@ public class Main
 
     public static void main(String args[])
     {
-        // DrawingSurface drawing = new DrawingSurface();
-        // DrawingSurfaceRect drawing = new DrawingSurfaceRect();
+        DrawingSurface drawing = new DrawingSurface();
+        DrawingSurfaceRect drawing = new DrawingSurfaceRect();
 
         PApplet.runSketch(new String[] { "" }, drawing);
         PSurfaceAWT surf = (PSurfaceAWT) drawing.getSurface();
