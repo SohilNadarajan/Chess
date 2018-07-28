@@ -7,13 +7,12 @@ import processing.core.PApplet;
 
 public class Main
 {
-    public static final int WINDOW_WIDTH = 600;
+    public static final int WINDOW_WIDTH = 800;
     public static final int WINDOW_HEIGHT = 600;
 
     public static void main(String args[])
     {
         DrawingSurface drawing = new DrawingSurface();
-        DrawingSurfaceRect drawing = new DrawingSurfaceRect();
 
         PApplet.runSketch(new String[] { "" }, drawing);
         PSurfaceAWT surf = (PSurfaceAWT) drawing.getSurface();
